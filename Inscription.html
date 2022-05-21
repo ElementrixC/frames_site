@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <title>
+        </title>
+    </head>
+    <body bgcolor=white> 
+        <form method="post" enctype="multipart/form-data"> 
+           <fieldset style="border:solid gray;"> <legend><h1>Informations</h1></legend>
+            <fieldset >
+                <legend><h2>Etat Civil</h2></legend>
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="Nom" placeholder="ex:JAMES" style="border-radius:10px" />
+                <br>
+                <br>
+                <label for="prénom">Prénom:</label>
+                <input type="text" id="prénom" name="Prénom" placeholder="ex:Stéphan" style="border-radius:10px"/>
+            </fieldset>
+            <fieldset>
+                <legend><h2>Profil</h2></legend>
+                <label for="mail">E-mail:</label>
+                <input type="text" id="mail" name="e-mail" placeholder="****@gmail.com" style="border-radius:10px" />
+                <br>
+                <br>
+                <label for="pass">Mot de passe:</label>
+                <input type="password" id="pass" name="mpass" style="border-radius:10px" />
+                <br>
+                <br>
+                <label for="tof">Photo d'identitée:</label>
+                <input type="file" id="tof" name="photo"  style="border-radius:10px"/>
+            </fieldset><br><br>
+            <label for="sexe"><h2>Sexe:</h2></label>
+            <input type="radio" name="sexe" value="homme" ><label for="homme">Homme</label></input>
+            <br>
+            <br>
+            <input type="radio" name="sexe" value="femme"><label for="femme">Femme</label></input>
+            <br>
+            <br>
+    <br>
+    <label for="nationalité">Pays d'origine</label>:
+    <select>
+                <option >Afrique du Sud</option>
+                <option >Albanie</option>
+                <option >Algérie</option>
+                <option >Allemangne</option>
+                <option >Andorre</option>
+                <option >Angola</option> 
+                <option >Antiga-et-Barbuda</option>
+                <option >Arabie saoudite</option> 
+                <option >Argentine</option> 
+                <option >Aménie</option> 
+                <option >Australie</option> 
+                <option >Autriche</option> 
+                <option >Belgique</option> 
+                <option >Bénin</option> 
+                <option >Birmanie</option> 
+                <option >Bolivie</option> 
+                <option >Botswana</option> 
+                <option >Brésil</option> 
+                <option >Bulgarie</option> 
+                <option >Burkina-Faso</option> 
+                <option >Burundi</option> 
+                <option >Cambodge</option> 
+                <option >Cameroun</option> 
+                <option >Canada</option> 
+                <option >Cap-Vert</option> 
+                <option >Centrafrique</option> 
+                <option >Chili</option> 
+                <option >Chine</option> 
+                <option >Chypre</option> 
+                <option >Colombie</option> 
+                <option >Comores</option> 
+                <option >Congo</option> 
+                <option >République démocratique du Congo</option> 
+                <option >îles Cook</option> 
+                <option >Corée du Nord</option> 
+                <option >Corée du Sud</option> 
+                <option >Côte-d'îvoire</option> 
+                <option >Croatie</option>
+                <option >Cuba</option> 
+                <option >Danemark</option> 
+                <option >djibouti</option> 
+                <option >Dominique</option> 
+                <option >Egypte</option> 
+                <option >Equateur</option> 
+                <option >Espagne</option> 
+                <option >Ethiopie</option> 
+                <option >France</option> 
+                <option >Gabon</option> 
+                <option >Gambie</option> 
+                <option >Géorgie</option> 
+                <option >Ghana</option> 
+                <option >Guinée</option> 
+                <option >Liban</option> 
+                <option >Libéria</option> 
+                <option >Mali</option> 
+                <option >Maroc</option> 
+                <option >Niger</option> 
+                <option >Nigéria</option> 
+                <option >Russie</option> 
+                <option >Rwanda</option> 
+                <option >Sénegal</option> 
+                <option >Somalie</option> 
+                <option >Suisse</option> 
+                <option >Tanzanie</option> 
+                <option >Tchad</option> 
+                <option >Togo</option> 
+                <option >Ukraine</option> 
+                <option >Zambie</option> 
+                <option >Zinbabwe</option> 
+    </select>
+  <label> <h2> Passes temps préférés:</h2></label>
+    <input type="checkbox" id="mus" name="musique"/> <label for="mus">Musique</label><br><br>
+    <input type="checkbox" id="foot" name="Football"/><label for="foot">Football</label><br><br>
+    <input type="checkbox" id="basket" name="basket"/><label for="basket">Basketball</label><br><br>
+    <input type="checkbox" id="program" name="program"/><label for="program">Programation</label><br><br>
+    <input type="submit" value="Soumettre" style="border-radius:10px;background-color:greenyellow;">
+    <input type="reset" style="border-radius:10px;background-color:blue;" value="Remettre à zéro"/>
+    
+</fieldset>
+        </form>

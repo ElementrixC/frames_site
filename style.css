@@ -1,0 +1,61 @@
+.paragraphe{
+    text-align:right;
+    }
+p{
+        font-family:'Times New Roman',Arial;
+        margin-top:50px;
+        margin-bottom:50px;
+        
+    }
+.ch1{
+        text-transform:uppercase;
+        text-align:center;
+        text-decoration:underline;
+    }
+ h3{
+        text-decoration:underline;
+        font-size:30px;
+        
+    }
+ div,input,select,legend,label{
+        font-size:30px;
+    }
+blockquote{
+        font-size: 15px;
+        
+    }
+#idp{
+        margin-left:100px;
+        list-style-type:none;
+        font-size:37px ;
+    }
+ ul{
+        color:gray;
+    }
+.acceuil{
+    background-color:gray;
+} 
+fieldset{
+    border:dashed;
+    color:black;
+}
+
+legend{
+    color:gray;
+}
+
+#nom:hover
+{
+    border:5px solid;
+    border-color: rgba(41,116,94,0.5);
+}
+.input{
+   background-color:black;
+    font-size:50px;
+    border-radius:30px;
+    color:white;
+    padding:15px; 
+}
+Button:hover{
+    background-color:gray;
+}
